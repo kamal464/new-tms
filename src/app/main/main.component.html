@@ -1,0 +1,15 @@
+<div class="page-hold">
+  <!-- <app-top-bar class="page-header-hold" [tabEvent]="tabEventSubject"></app-top-bar> -->
+  <div class="page-loading-hold" *ngIf="isLoading">
+    <!-- <mat-progress-bar mode="indeterminate" color="primary"></mat-progress-bar> -->
+  </div>
+  <!-- <div class="page-tabs-hold">
+    <app-dynamic-tab (selected)="onSelectedTab($event)"></app-dynamic-tab>
+  </div> -->
+  <div class="page-footer-hold">
+    <!-- <app-log-view class="page-log"></app-log-view> -->
+    <div class="spacer"></div>
+    <app-company></app-company>
+    <span class="copyright-hold secondary-color-text">© Copyright 2021</span>
+  </div>
+</div>
